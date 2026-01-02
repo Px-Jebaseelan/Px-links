@@ -1,6 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# ============================================================
+# DEPENDENCIES
+# ============================================================
 /node_modules
 /.pnp
 .pnp.*
@@ -9,25 +11,160 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.yarn/cache
+.yarn/install-state.gz
 
-# testing
+# ============================================================
+# TESTING
+# ============================================================
 /coverage
+*.lcov
+.nyc_output
 
-# next.js
+# ============================================================
+# NEXT.JS / VERCEL
+# ============================================================
 /.next/
 /out/
+.vercel/
 
-# production
+# ============================================================
+# PRODUCTION
+# ============================================================
 /build
+/dist
+*.prod.js
 
-# misc
+# ============================================================
+# ENVIRONMENT VARIABLES
+# ============================================================
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+.env.*.production.local
+
+# ============================================================
+# OPERATING SYSTEM
+# ============================================================
 .DS_Store
-*.pem
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
 
-# debug
+# ============================================================
+# IDE / EDITOR
+# ============================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.vim/
+.project
+.settings/
+*.iml
+*.iws
+*.ipr
+.classpath
+.c9/
+*.launch
+.tern-port
+*.code-workspace
+.DS_Store
+.vscode-test
+.vscode/extensions
+
+# ============================================================
+# PACKAGE MANAGERS
+# ============================================================
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.pnpm-debug.log*
+pnpm-debug.log
+
+# ============================================================
+# LOGS
+# ============================================================
+logs
+*.log
 npm-debug.log*
+npm-error.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+*.log
+*.logs
+
+# ============================================================
+# TEMPORARY FILES
+# ============================================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+.parcel-cache
+.cache-loader
+
+# ============================================================
+# OS SPECIFIC
+# ============================================================
+.env.local.js
+.env.*.local.js
+
+# ============================================================
+# IDE SPECIFIC
+# ============================================================
+.eslintcache
+.stylelintcache
+
+# ============================================================
+# BUILD TOOLS
+# ============================================================
+.turbo/
+.eslintignore
+
+# ============================================================
+# DATABASE
+# ============================================================
+*.db
+*.sqlite
+*.sqlite3
+mongo/
+database/
+
+# ============================================================
+# MISC
+# ============================================================
+.env.test
+.cache
+.output
+dist
+.nuxt
+.cache/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+.yarn/cache
+.yarn/unplugged
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
