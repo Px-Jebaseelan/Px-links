@@ -2,6 +2,8 @@
 
 A modern, feature-rich link management application built with Next.js and React. Create a personalized dashboard to manage, share, and track your links with an intuitive user interface.
 
+🌐 **[Live Demo](https://px-links0.vercel.app/)** • 📖 [GitHub](https://github.com/yourusername/px-links) • 📚 [Documentation](#-documentation)
+
 ---
 
 ## ✨ Features
@@ -49,6 +51,8 @@ A modern, feature-rich link management application built with Next.js and React.
    git clone https://github.com/yourusername/px-links.git
    cd px-links
    ```
+   
+   Or visit the **[live demo](https://px-links0.vercel.app/)** to try it first!
 
 2. **Install dependencies**
    ```bash
@@ -73,6 +77,8 @@ A modern, feature-rich link management application built with Next.js and React.
 
 5. **Open in browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
+   
+   Or use the **[live version](https://px-links0.vercel.app/)**
 
 ---
 
@@ -263,7 +269,9 @@ DEBUG=false
 
 ## 🚀 Deployment
 
-### Deploy to Vercel (Recommended)
+✅ **Already Live!** Your app is deployed at: **https://px-links0.vercel.app/**
+
+### Deploy to Vercel (For Your Own Copy)
 
 1. **Push to GitHub**
    ```bash
